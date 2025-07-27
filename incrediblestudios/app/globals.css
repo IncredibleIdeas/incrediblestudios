@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+:root {
+  --color-background: #ffffff;
+  --color-foreground: #2F2F3C;
+  --color-royal-purple: #6C63FF;
+  --color-teal: #00BFA6;
+  --color-cool-gray: #E0E0E0;
+  --color-slate: #2F2F3C;
+  --color-current: #2F2F3C;
+}
+
+/*@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #0a0a0a;
+    --color-foreground: #ededed;
+    --color-cool-gray: #E0E0E0;
+    --color-slate: #2F2F3C;
+  }
+}*/
+
+.bg-background {
+  background-color: var(--color-background);
+}
+.bg-royal-purple {
+  background-color: var(--color-royal-purple);
+}
+.bg-teal {
+  background-color: var(--color-teal);
+}
+.bg-cool-gray {
+  background-color: var(--color-cool-gray);
+}
+.bg-slate {
+  background-color: var(--color-slate);
+}
+
+.text-foreground {
+  color: var(--color-foreground);
+}
+.text-royal-purple {
+  color: var(--color-royal-purple);
+}
+.text-teal {
+  color: var(--color-teal);
+}
+.text-cool-gray {
+  color: var(--color-cool-gray);
+}
+.text-slate {
+  color: var(--color-slate);
+}
+
+/* Font family utility classes (for use in plain CSS if needed) */
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+.font-opensans {
+  font-family: 'Open Sans', sans-serif;
+}
+.font-allura {
+  font-family: 'Allura', cursive;
+}
+
+/* Body base styles */
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/* Logo and hero text styles */
+.logo-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: var(--color-royal-purple);
+}
+.logo-studio {
+  font-family: 'Allura', cursive;
+  margin-left: -8px;
+  color: var(--color-slate);
+}
+.hero-text {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Button and border utility classes (for custom CSS use) */
+.border-royal-purple {
+  border-color: var(--color-royal-purple);
+}
+.border-cool-gray {
+  border-color: var(--color-cool-gray);
+}
+
+/* If you need to add more custom utility classes, follow the same pattern above. */
